@@ -1,0 +1,29 @@
+<svg width="87" height="87" viewBox="0 0 87 87" fill="none" xmlns="http://www.w3.org/2000/svg">
+<foreignObject x="-31.2" y="-31.2" width="149.4" height="149.4"><div xmlns="http://www.w3.org/1999/xhtml" style="backdrop-filter:blur(15.6px);clip-path:url(#bgblur_0_1_44_clip_path);height:100%;width:100%"></div></foreignObject><g filter="url(#filter0_n_1_44)" data-figma-bg-blur-radius="31.2">
+<rect width="87" height="87" rx="15" fill="#203432" fill-opacity="0.6"/>
+<rect x="0.5" y="0.5" width="86" height="86" rx="14.5" stroke="url(#paint0_radial_1_44)"/>
+</g>
+<defs>
+<filter id="filter0_n_1_44" x="-31.2" y="-31.2" width="149.4" height="149.4" filterUnits="userSpaceOnUse" color-interpolation-filters="sRGB">
+<feFlood flood-opacity="0" result="BackgroundImageFix"/>
+<feBlend mode="normal" in="SourceGraphic" in2="BackgroundImageFix" result="shape"/>
+<feTurbulence type="fractalNoise" baseFrequency="3.3333332538604736 3.3333332538604736" stitchTiles="stitch" numOctaves="3" result="noise" seed="8671" />
+<feColorMatrix in="noise" type="luminanceToAlpha" result="alphaNoise" />
+<feComponentTransfer in="alphaNoise" result="coloredNoise1">
+<feFuncA type="discrete" tableValues="1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 "/>
+</feComponentTransfer>
+<feComposite operator="in" in2="shape" in="coloredNoise1" result="noise1Clipped" />
+<feFlood flood-color="rgba(0, 0, 0, 0.25)" result="color1Flood" />
+<feComposite operator="in" in2="noise1Clipped" in="color1Flood" result="color1" />
+<feMerge result="effect1_noise_1_44">
+<feMergeNode in="shape" />
+<feMergeNode in="color1" />
+</feMerge>
+</filter>
+<clipPath id="bgblur_0_1_44_clip_path" transform="translate(31.2 31.2)"><rect width="87" height="87" rx="15"/>
+</clipPath><radialGradient id="paint0_radial_1_44" cx="0" cy="0" r="1" gradientTransform="matrix(17.5919 43.5 -105.828 21.6989 43.5 43.5)" gradientUnits="userSpaceOnUse">
+<stop stop-color="white" stop-opacity="0"/>
+<stop offset="1" stop-color="#203432"/>
+</radialGradient>
+</defs>
+</svg>

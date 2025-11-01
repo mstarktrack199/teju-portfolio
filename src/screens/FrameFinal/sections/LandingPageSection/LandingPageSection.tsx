@@ -14,7 +14,7 @@ const socialLinks = [
 
 export const LandingPageSection = (): JSX.Element => {
   return (
-    <section className="w-screen h-screen relative bg-[#203432] overflow-hidden">
+    <section className="w-full h-[982px] relative bg-[#203432] overflow-hidden">
       <div className="absolute top-[257px] left-[629px] w-[359px] h-[1133px] bg-[#f4d6db17] rounded-[179.5px/566.5px] blur-[58.3px]" />
 
       <img

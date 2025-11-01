@@ -41,8 +41,8 @@ const colorSwatches = [
 
 export const InternshipExperienceSection = (): JSX.Element => {
   return (
-    <section className="w-screen h-screen relative bg-[#f0ede5] overflow-hidden">
-      <div className="relative w-full h-screen">
+    <section className="w-full relative bg-[#f0ede5] overflow-hidden">
+      <div className="relative w-full h-[6083px]">
         <div className="absolute top-[976px] left-[959px] w-[589px] h-[466px]">
           <img
             className="absolute w-full h-full top-0 left-0"

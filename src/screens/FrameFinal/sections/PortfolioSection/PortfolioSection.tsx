@@ -2,8 +2,8 @@ import React from "react";
 
 export const PortfolioSection = (): JSX.Element => {
   return (
-    <div className="w-screen h-screen flex flex-col">
-      <div className="h-screen w-screen relative bg-[#faefe4] overflow-hidden">
+    <div className="w-[1512px] h-[9978px] flex flex-col">
+      <div className="h-[7138px] relative bg-[#faefe4] overflow-hidden">
         <div className="absolute top-0 -left-px w-[1512px] h-[907px] bg-[#49080a]" />
 
         <img

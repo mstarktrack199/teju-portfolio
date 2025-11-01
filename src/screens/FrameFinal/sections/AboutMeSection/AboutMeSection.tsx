@@ -22,7 +22,7 @@ const softwareSkills = [
 
 export const AboutMeSection = (): JSX.Element => {
   return (
-    <section className="w-full relative bg-[#203432] py-[69px] px-[77px]">
+    <section className="w-screen h-screen relative bg-[#203432] py-[69px] px-[77px] overflow-auto">
       <nav className="flex items-center justify-between mb-[102px]">
         <div className="flex items-center gap-[75px]">
           {navigationItems.map((item, index) => (

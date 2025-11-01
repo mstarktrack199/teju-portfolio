@@ -25,13 +25,13 @@ export const FrameFinal = (): JSX.Element => {
   ];
 
   return (
-    <div className="w-full min-w-[1555px] flex flex-col">
+    <div className="w-full flex flex-col">
       <LandingPageSection />
       <AboutMeSection />
       <InternshipExperienceSection />
       <PortfolioSection />
-      <section className="w-full flex justify-center bg-[#faefe4]">
-        <div className="w-full max-w-[1512px] flex flex-col">
+      <section className="w-screen h-screen flex justify-center bg-[#faefe4]">
+        <div className="w-full h-full flex flex-col">
           {portfolioImages.map((image, index) => (
             <img
               key={`portfolio-image-${index}`}
